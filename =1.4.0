@@ -1,0 +1,37 @@
+Collecting flask-oidc
+  Downloading flask-oidc-1.4.0.tar.gz (30 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: Flask in /home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages (from flask-oidc) (2.1.2)
+Requirement already satisfied: itsdangerous in /home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages (from flask-oidc) (2.1.2)
+Collecting oauth2client
+  Downloading oauth2client-4.1.3-py2.py3-none-any.whl (98 kB)
+     ━━━━━━━━━━━━━ 98.2/98.2 KB 4.2 MB/s eta 0:00:00
+Requirement already satisfied: six in /home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages (from flask-oidc) (1.16.0)
+Requirement already satisfied: importlib-metadata>=3.6.0 in /home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages (from Flask->flask-oidc) (4.11.3)
+Requirement already satisfied: Werkzeug>=2.0 in /home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages (from Flask->flask-oidc) (2.1.2)
+Requirement already satisfied: click>=8.0 in /home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages (from Flask->flask-oidc) (8.1.3)
+Requirement already satisfied: Jinja2>=3.0 in /home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages (from Flask->flask-oidc) (3.1.1)
+Collecting httplib2>=0.9.1
+  Downloading httplib2-0.20.4-py3-none-any.whl (96 kB)
+     ━━━━━━━━━━━━━ 96.6/96.6 KB 5.3 MB/s eta 0:00:00
+Collecting pyasn1-modules>=0.0.5
+  Downloading pyasn1_modules-0.2.8-py2.py3-none-any.whl (155 kB)
+     ━━━━━━━━━━━━ 155.3/155.3   8.6 MB/s eta 0:00:00
+                  KB                                
+Collecting pyasn1>=0.1.7
+  Downloading pyasn1-0.4.8-py2.py3-none-any.whl (77 kB)
+     ━━━━━━━━━━━━━ 77.1/77.1 KB 4.3 MB/s eta 0:00:00
+Collecting rsa>=3.1.4
+  Downloading rsa-4.8-py3-none-any.whl (39 kB)
+Requirement already satisfied: pyparsing!=3.0.0,!=3.0.1,!=3.0.2,!=3.0.3,<4,>=2.4.2 in /home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages (from httplib2>=0.9.1->oauth2client->flask-oidc) (3.0.7)
+Requirement already satisfied: zipp>=0.5 in /home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages (from importlib-metadata>=3.6.0->Flask->flask-oidc) (3.7.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/gitpod/.pyenv/versions/3.8.13/lib/python3.8/site-packages (from Jinja2>=3.0->Flask->flask-oidc) (2.1.1)
+Building wheels for collected packages: flask-oidc
+  Building wheel for flask-oidc (setup.py): started
+  Building wheel for flask-oidc (setup.py): finished with status 'done'
+  Created wheel for flask-oidc: filename=flask_oidc-1.4.0-py2.py3-none-any.whl size=17527 sha256=1ad119f0c50c414b83e15a418cce914a101b9f59ff6a6bc28a45a67255234e87
+  Stored in directory: /home/gitpod/.cache/pip/wheels/c4/43/01/872857ed98e5030fbb5ea60f3e61d5ff0c6afdccb1ad8e0526
+Successfully built flask-oidc
+Installing collected packages: pyasn1, rsa, pyasn1-modules, httplib2, oauth2client, flask-oidc
+Successfully installed flask-oidc-1.4.0 httplib2-0.20.4 oauth2client-4.1.3 pyasn1-0.4.8 pyasn1-modules-0.2.8 rsa-4.8
